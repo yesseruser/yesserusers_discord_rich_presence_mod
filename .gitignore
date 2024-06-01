@@ -1,0 +1,17 @@
+# Project exclude paths
+/.gradle/
+/common/build/
+/fabric/.gradle/
+/fabric/build/
+/fabric-like/build/
+/forge/.gradle/
+/forge/build/
+/neoforge/.gradle/
+/neoforge/build/
+/quilt/.gradle/
+/quilt/build/
+
+*/run/
+*/build/
+/run/
+/build/
