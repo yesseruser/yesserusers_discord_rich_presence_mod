@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "yesserusers_discord_rich_presence_mod",
+  "version": "${version}",
+  "name": "yesseruser's Discord Rich Presence Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/yesserusers_discord_rich_presence_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cz.yesseruser.discordrpc.fabric.ExampleModFabric"
+    ],
+    "client": [
+      "cz.yesseruser.discordrpc.fabric.client.ExampleModFabricClient"
+    ]
+  },
+  "mixins": [
+    "yesserusers_discord_rich_presence_mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "architectury": ">=11.1.17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
