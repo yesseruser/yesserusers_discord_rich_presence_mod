@@ -1,12 +1,10 @@
 package cz.yesseruser.discordrpc;
 
 import com.mojang.logging.LogUtils;
+import de.jcm.discordgamesdk.Core;
 import de.jcm.discordgamesdk.CreateParams;
-import dev.architectury.event.events.client.ClientGuiEvent;
-import dev.architectury.event.events.common.TickEvent;
-import dev.architectury.hooks.client.screen.ScreenAccess;
-import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.entity.player.PlayerEntity;
+import dev.architectury.event.events.client.ClientTickEvent;
+import net.minecraft.client.MinecraftClient;
 import org.slf4j.Logger;
 
 public final class ExampleMod {
@@ -17,18 +15,25 @@ public final class ExampleMod {
     public static final long DISCORD_CLIENT_ID = 1246435446838399037L;
 
     public static void init() {
-        try (CreateParams discordParams = new CreateParams()) {
+        LOGGER.info("Creating params");
+        /*try (*/CreateParams discordParams = new CreateParams();//) {
+            LOGGER.info("Setting client ID");
             discordParams.setClientID(DISCORD_CLIENT_ID);
-        }
+            LOGGER.info("Client ID set");
+            discordParams.setFlags(CreateParams.getDefaultFlags());
+            LOGGER.info("Flags set.");
+
+            try (Core core = new Core(discordParams)) {
+
+            }
+        //}
+
+        discordParams.close();
 
 
         // Write common init code here.
-        TickEvent.PLAYER_POST.register((PlayerEntity player) -> {
+        ClientTickEvent.CLIENT_POST.register((MinecraftClient client) -> {
             LOGGER.info("Tick");
-        });
-
-        ClientGuiEvent.INIT_POST.register((Screen screen, ScreenAccess access) -> {
-
         });
     }
 }
