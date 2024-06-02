@@ -6,9 +6,9 @@
     "version": "${version}",
     "metadata": {
       "name": "yesseruser's Discord Rich Presence Mod",
-      "description": "This is an example description! Tell everyone what your mod is about!",
+      "description": "This mod adds support for Discord Rich Presence which shares a lot of information about the game.",
       "contributors": {
-        "Me!": "Author"
+        "yesseruser": "Author"
       },
       "icon": "assets/yesserusers_discord_rich_presence_mod/icon.png"
     },
@@ -36,8 +36,5 @@
         "version": ">=11.1.17"
       }
     ]
-  },
-  "mixin": [
-    "yesserusers_discord_rich_presence_mod.mixins.json"
-  ]
+  }
 }

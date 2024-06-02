@@ -3,9 +3,9 @@
   "id": "yesserusers_discord_rich_presence_mod",
   "version": "${version}",
   "name": "yesseruser's Discord Rich Presence Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "This mod adds support for Discord Rich Presence which shares a lot of information about the game.",
   "authors": [
-    "Me!"
+    "yesseruser"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",

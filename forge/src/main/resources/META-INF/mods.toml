@@ -7,9 +7,9 @@ license = "Insert License Here"
 modId = "yesserusers_discord_rich_presence_mod"
 version = "${version}"
 displayName = "yesseruser's Discord Rich Presence Mod"
-authors = "Me!"
+authors = "yesseruser"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+This mod adds support for Discord Rich Presence which shares a lot of information about the game.
 '''
 #logoFile = ""
 
