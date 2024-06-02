@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/yesserusers_discord_rich_presence_mod.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/yesserusers_discord_rich_presence_mod.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/yesserusers_discord_rich_presence_mod.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/yesserusers_discord_rich_presence_mod.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/yesserusers_discord_rich_presence_mod.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/yesserusers_discord_rich_presence_mod.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/yesserusers_discord_rich_presence_mod.fabric.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/yesserusers_discord_rich_presence_mod.fabric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric-like/yesserusers_discord_rich_presence_mod.fabric-like.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric-like/yesserusers_discord_rich_presence_mod.fabric-like.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric-like/yesserusers_discord_rich_presence_mod.fabric-like.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric-like/yesserusers_discord_rich_presence_mod.fabric-like.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric-like/yesserusers_discord_rich_presence_mod.fabric-like.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric-like/yesserusers_discord_rich_presence_mod.fabric-like.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/yesserusers_discord_rich_presence_mod.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/yesserusers_discord_rich_presence_mod.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/yesserusers_discord_rich_presence_mod.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/yesserusers_discord_rich_presence_mod.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/yesserusers_discord_rich_presence_mod.forge.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/yesserusers_discord_rich_presence_mod.forge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/yesserusers_discord_rich_presence_mod.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/yesserusers_discord_rich_presence_mod.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/yesserusers_discord_rich_presence_mod.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/yesserusers_discord_rich_presence_mod.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/yesserusers_discord_rich_presence_mod.neoforge.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/yesserusers_discord_rich_presence_mod.neoforge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/yesserusers_discord_rich_presence_mod.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/yesserusers_discord_rich_presence_mod.neoforge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/yesserusers_discord_rich_presence_mod.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/yesserusers_discord_rich_presence_mod.neoforge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/yesserusers_discord_rich_presence_mod.quilt.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/yesserusers_discord_rich_presence_mod.quilt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/yesserusers_discord_rich_presence_mod.quilt.main.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/yesserusers_discord_rich_presence_mod.quilt.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/quilt/yesserusers_discord_rich_presence_mod.quilt.test.iml" filepath="$PROJECT_DIR$/.idea/modules/quilt/yesserusers_discord_rich_presence_mod.quilt.test.iml" />
+    </modules>
+  </component>
+</project>
