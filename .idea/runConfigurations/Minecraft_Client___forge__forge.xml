@@ -1,16 +1,17 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" factoryName="Application" name="Minecraft Client (:forge)" type="Application">
-    <option name="MAIN_CLASS_NAME" value="dev.architectury.transformer.TransformerRuntime"/>
-    <module name="yesserusers_discord_rich_presence_mod.forge.main"/>
-    <option name="PROGRAM_PARAMETERS" value=""/>
-    <option name="VM_PARAMETERS" value="-Dfabric.dli.config=/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/forge/.gradle/loom-cache/launch.cfg -Dfabric.dli.env=client -Djava.net.preferIPv6Addresses=system -DunionRelauncher.mainClass=net.minecraftforge.bootstrap.ForgeBootstrap -XstartOnFirstThread -Dfabric.dli.main=juuxel.unionrelauncher.UnionRelauncher -Darchitectury.main.class=/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/forge/.gradle/architectury/.main_class -Darchitectury.runtime.transformer=/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/forge/.gradle/architectury/.transforms -Darchitectury.properties=/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/forge/.gradle/architectury/.properties -Djdk.attach.allowAttachSelf=true -javaagent:/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/.gradle/architectury/architectury-transformer-agent.jar"/>
-    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forge/run/"/>
-    <method v="2">
-      <option enabled="true" name="Make"/>
-    </method>
+  <configuration default="false" name="Minecraft Client (:forge)" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="jbr-17" />
     <envs>
-      <env name="MOD_CLASSES" value="main%%/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/forge/build/resources/main:main%%/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/forge/build/classes/java/main"/><env name="MCP_MAPPINGS" value="loom.stub"/>
+      <env name="MOD_CLASSES" value="main%%/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/forge/build/resources/main:main%%/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/forge/build/classes/java/main" />
+      <env name="MCP_MAPPINGS" value="loom.stub" />
     </envs>
-    <shortenClasspath name="ARGS_FILE"/>
-  <classpathModifications/></configuration>
+    <option name="MAIN_CLASS_NAME" value="dev.architectury.transformer.TransformerRuntime" />
+    <module name="yesserusers_discord_rich_presence_mod.forge.main" />
+    <shortenClasspath name="ARGS_FILE" />
+    <option name="VM_PARAMETERS" value="-Dfabric.dli.config=/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/forge/.gradle/loom-cache/launch.cfg -Dfabric.dli.env=client -Djava.net.preferIPv6Addresses=system -DunionRelauncher.mainClass=net.minecraftforge.bootstrap.ForgeBootstrap -XstartOnFirstThread -Dfabric.dli.main=juuxel.unionrelauncher.UnionRelauncher -Darchitectury.main.class=/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/forge/.gradle/architectury/.main_class -Darchitectury.runtime.transformer=/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/forge/.gradle/architectury/.transforms -Darchitectury.properties=/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/forge/.gradle/architectury/.properties -Djdk.attach.allowAttachSelf=true -javaagent:/Users/yesseruser/Programming/JavaKotlin/discord-rpc-mod/.gradle/architectury/architectury-transformer-agent.jar" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/forge/run/" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
 </component>
